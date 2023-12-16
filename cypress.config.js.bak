@@ -1,0 +1,28 @@
+const { defineConfig } = require("cypress");
+
+module.exports = defineConfig({
+
+  experimentalModifyObstructiveThirdPartyCode: true,
+
+  e2e: {
+    baseUrl: "https://trello.com",
+    setupNodeEvents(on, config) {
+      // implement node event listeners here
+
+
+    },
+
+    env: {
+
+      trelloApi: {
+        key: "f138cee858abb74af6661e89909ecc33",
+        token: "ATTA1aaebb0b24671a9bad9ae36b25cdfe89c0617190722cfb0c52afcc74da395da1909790D7"
+      }
+
+    }
+
+  }
+
+
+
+});

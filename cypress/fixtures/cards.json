@@ -1,0 +1,31 @@
+[
+    {
+        "name": "card0",
+        "description" :"Any description for card0",
+        "lableTitle" :"lableTitile for card0",
+        "labelColor" :"sky",
+        "targetList":"In progress"
+      },
+      {
+        "name": "card1",
+        "description" :"Any description for card1",
+        "lableTitle" :"lableTitile for car10",
+        "labelColor" :"green",
+        "targetList":"Pending Review"
+      },
+      {
+        "name": "card2",
+        "description" :"Any description for card2",
+        "lableTitle" :"lableTitile for card2",
+        "labelColor" :"blue",
+        "targetList":"Done"
+      },
+      {
+        "name": "card3",
+        "description" :"Any description for card3",
+        "lableTitle" :"lableTitile for card3",
+        "labelColor" :"yellow",
+        "targetList":"Done"
+      }
+
+]
